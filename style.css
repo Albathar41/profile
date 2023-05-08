@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #14281D;
+}
+
+.img-circle {
+  width: 150px 150px;
+  border-radius: 50%;
+}
+
+h1, h2{
+  font-family: 'Work Sans', sans-serif;
+  color: #355834;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  background-color: #C2A878;
+  border-radius: 4px;
+  padding: 5px
+}
+
+a:hover {
+  background-color: #6E633D;
+}
+
+.container {
+  text-align: center;
+  background-color: #F1F5F2;
+  border-radius: 4px;
+  width: 700px;
+  align-items: center;
+  padding-bottom: 20px;
+  margin: auto;
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.4);
+}
+
+.container ul {
+  padding-left: 0px;
+}
+
+.container li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0.5em;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+
+
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
